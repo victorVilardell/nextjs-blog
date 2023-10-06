@@ -10,7 +10,7 @@ const PostPage = ({ params: { slug } }: { params: { slug: string } }) => {
   return (
     <section className="flex flex-col space-y-2">
       <Link href="/">
-        <ArrowLeftCircle className="inline mb-3 align-middle"></ArrowLeftCircle>
+        <ArrowLeftCircle className="inline mb-3 align-top"></ArrowLeftCircle>{" "}
         Back to Home
       </Link>
       <article>
